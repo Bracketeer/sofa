@@ -26,7 +26,8 @@
       "edgeToEdgeEnabled": true,
       "splash": {
         "image": "./assets/images/splash.png"
-      }
+      },
+      "package": "com.brent_makes_apps.sofa"
     },
     "ios": {
       "splash": {
@@ -43,6 +44,12 @@
     },
     "newArchEnabled": true,
     "name": "sofa",
-    "slug": "sofa"
+    "slug": "sofa",
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "78554475-b616-4c1d-a1a4-07a79590085c"
+      }
+    }
   }
 }
